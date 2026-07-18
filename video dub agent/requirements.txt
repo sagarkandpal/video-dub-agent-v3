@@ -1,0 +1,55 @@
+# ============================================================
+# Video Dubbing Agent - Pinned Requirements (Docker-safe)
+# ============================================================
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.13.0
+torchaudio==2.11.0
+
+# ── Audio & Video Processing ────────────────────────────────
+yt-dlp==2026.7.4
+pydub==0.25.1
+ffmpeg-python==0.2.0
+moviepy==1.0.3
+edge-tts==7.2.8
+
+# ── Transcription ───────────────────────────────────────────
+openai-whisper==20250625
+
+# ── Audio Loading ────────────────────────────────────────────
+sarvamai==0.1.28
+librosa==0.10.1
+soundfile==0.12.1
+audioread==3.1.0
+
+# ── Speaker Diarization ───────────────────────────────────────
+pyannote-audio==4.0.7
+pyannote-core==6.0.1
+huggingface-hub==1.23.0
+
+# ── Translation (Groq) ──────────────────────────────────────
+langchain-groq==1.1.3
+langchain==1.3.13
+langchain-core==1.4.9
+python-dotenv==1.2.2
+
+# ── LangGraph Workflow ──────────────────────────────────────
+langgraph==1.2.9
+
+# ── FastAPI Backend ─────────────────────────────────────────
+fastapi==0.139.0
+uvicorn==0.51.0
+python-multipart==0.0.32
+pydantic==2.13.4
+
+# ── Utilities ────────────────────────────────────────────────
+numpy==2.4.6
+tiktoken==0.13.0
+tqdm==4.68.4
+requests==2.34.2
+aiofiles==25.1.0
+
+# ── Testing ──────────────────────────────────────────────────
+pytest==9.1.1
+pytest-asyncio==1.4.0
+pytest-cov==7.1.0
+httpx==0.28.1
