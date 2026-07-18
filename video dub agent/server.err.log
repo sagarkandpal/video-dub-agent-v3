@@ -1,21 +1,0 @@
-INFO:     Started server process [25640]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
-  0%|          | 0/6691 [00:00<?, ?frames/s] 43%|████▎     | 2902/6691 [00:09<00:12, 292.63frames/s] 87%|████████▋ | 5820/6691 [00:18<00:02, 327.05frames/s]100%|██████████| 6691/6691 [00:22<00:00, 294.21frames/s]100%|██████████| 6691/6691 [00:22<00:00, 300.54frames/s]
-Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
-handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
-Traceback (most recent call last):
-  File "C:\python3.12\Lib\asyncio\events.py", line 88, in _run
-    self._context.run(self._callback, *self._args)
-  File "C:\python3.12\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
-    self._sock.shutdown(socket.SHUT_RDWR)
-ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
-Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
-handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
-Traceback (most recent call last):
-  File "C:\python3.12\Lib\asyncio\events.py", line 88, in _run
-    self._context.run(self._callback, *self._args)
-  File "C:\python3.12\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
-    self._sock.shutdown(socket.SHUT_RDWR)
-ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
