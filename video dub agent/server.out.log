@@ -1,199 +1,0 @@
-[INFO] Initializing dubbing pipeline (this may take a moment)...
-📁 Downloads directory: downloads/
-📁 Audio directory: downloads/audio
-📢 Using device: cpu for transcription
-✅ Hugging Face login successful
-✅ Pyannote diarization loaded successfully!
-✅ edge-tts dubber initialized (free, no API key needed)
-[INFO] Pipeline ready -- API is up
-INFO:     127.0.0.1:54210 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54211 - "GET /ui HTTP/1.1" 307 Temporary Redirect
-INFO:     127.0.0.1:54211 - "GET /frontend/index.html HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54212 - "GET /languages HTTP/1.1" 200 OK
-INFO:     127.0.0.1:62096 - "GET /ui HTTP/1.1" 307 Temporary Redirect
-INFO:     127.0.0.1:62096 - "GET /frontend/index.html HTTP/1.1" 200 OK
-INFO:     127.0.0.1:62096 - "GET /favicon.ico HTTP/1.1" 404 Not Found
-INFO:     127.0.0.1:55028 - "GET /languages HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54565 - "GET /docs HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54566 - "GET /ui HTTP/1.1" 307 Temporary Redirect
-INFO:     127.0.0.1:54566 - "GET /frontend/index.html HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53044 - "GET /frontend/index.html HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:62081 - "GET /languages HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "POST /upload-youtube HTTP/1.1" 200 OK
-📢 Extracting audio from video...
-🎬 YouTube URL detected. Downloading video first...
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-✅ Video downloaded: Millie_Bobby_Brown_on_the_moment_she_learned_her_daughter_would_come_home_milliebobbybrown.mp4
-📁 Location: downloads\videos\Millie_Bobby_Brown_on_the_moment_she_learned_her_daughter_would_come_home_milliebobbybrown.mp4
-🎬 Video downloaded to: downloads\videos\Millie_Bobby_Brown_on_the_moment_she_learned_her_daughter_would_come_home_milliebobbybrown.mp4
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-✅ Audio extracted: Millie_Bobby_Brown_on_the_moment_she_learned_her_daughter_would_come_home_milliebobbybrown.wav
-📁 Location: downloads/audio/Millie_Bobby_Brown_on_the_moment_she_learned_her_daughter_would_come_home_milliebobbybrown.wav
-🎤 Identifying speakers...
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-🧑‍🤝‍🧑 Detecting speaker gender...
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-🎯 SPEAKER_01: avg pitch = 132.3 Hz → male
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51294 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-🎯 SPEAKER_00: avg pitch = 187.1 Hz → female
-📝 Transcribing speaker segments...
-📝 Running Whisper (English) on full audio...
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54563 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-Detected language: English
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-📄 English transcript saved: downloads/transcripts/Millie_Bobby_Brown_on_the_moment_she_learned_her_daughter_would_come_home_milliebobbybrown_original_english.txt
-🌍 Translating to Gujarati...
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-📄 Translated transcript saved: downloads/transcripts/Millie_Bobby_Brown_on_the_moment_she_learned_her_daughter_would_come_home_milliebobbybrown_translated_Gujarati.txt
-🎙️ Generating dubbed voices...
-🎙️ Using Sarvam TTS for Gujarati (sequential — Sarvam has stricter rate limits)
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-✅ Generated (Sarvam): SPEAKER_01_0.wav (566.0 KB) [speaker=amit, lang=gu-IN]
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-✅ Generated (Sarvam): SPEAKER_01_1.wav (242.6 KB) [speaker=amit, lang=gu-IN]
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-✅ Generated (Sarvam): SPEAKER_00_2.wav (1896.4 KB) [speaker=priya, lang=gu-IN]
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-✅ Generated (Sarvam): SPEAKER_00_3.wav (2272.5 KB) [speaker=priya, lang=gu-IN]
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-✅ Generated (Sarvam): SPEAKER_00_4.wav (272.0 KB) [speaker=priya, lang=gu-IN]
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-✅ Generated (Sarvam): SPEAKER_00_5.wav (110.3 KB) [speaker=priya, lang=gu-IN]
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-✅ Generated (Sarvam): SPEAKER_00_6.wav (1132.0 KB) [speaker=priya, lang=gu-IN]
-✅ Generated (Sarvam): SPEAKER_00_7.wav (80.9 KB) [speaker=priya, lang=gu-IN]
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-✅ Generated (Sarvam): SPEAKER_00_8.wav (610.1 KB) [speaker=priya, lang=gu-IN]
-🔄 Syncing audio with video...
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-📹 Video duration: 66.91 seconds
-  Segment 0 [SPEAKER_01]: start=0.03s, duration=4.02s
-  Segment 1 [SPEAKER_01]: start=46.74s, duration=1.55s
-  Segment 2 [SPEAKER_00]: start=4.13s, duration=19.76s
-  Segment 3 [SPEAKER_00]: start=24.43s, duration=20.17s
-  Segment 4 [SPEAKER_00]: start=44.80s, duration=1.65s
-  Segment 5 [SPEAKER_00]: start=48.93s, duration=0.78s
-  Segment 6 [SPEAKER_00]: start=49.78s, duration=8.81s
-  Segment 7 [SPEAKER_00]: start=58.89s, duration=0.30s
-  ⚠️ Overlap detected at 59.01s — ducking volume
-  Segment 8 [SPEAKER_00]: start=59.01s, duration=5.82s
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-✅ Video synced: Millie_Bobby_Brown_on_the_moment_she_learned_her_daughter_would_come_home_milliebobbybrown_dubbed.mp4
-INFO:     127.0.0.1:56590 - "GET /status/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52008 - "GET /download/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 206 Partial Content
-INFO:     127.0.0.1:57665 - "GET /download/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 206 Partial Content
-INFO:     127.0.0.1:57665 - "GET /download/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 206 Partial Content
-INFO:     127.0.0.1:56821 - "GET /download/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 206 Partial Content
-INFO:     127.0.0.1:50989 - "GET /favicon.ico HTTP/1.1" 404 Not Found
-INFO:     127.0.0.1:58771 - "GET /download/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 206 Partial Content
-INFO:     127.0.0.1:61397 - "GET /download/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 206 Partial Content
-INFO:     127.0.0.1:61397 - "GET /download/df17a00f-b3d5-4e03-9328-706d4a47f0b4 HTTP/1.1" 206 Partial Content
-INFO:     127.0.0.1:57727 - "POST /upload-youtube HTTP/1.1" 200 OK
-📢 Extracting audio from video...
-🎬 YouTube URL detected. Downloading video first...
-INFO:     127.0.0.1:57727 - "GET /status/5fefd030-ddb1-48f0-bce4-91d9970e4888 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57727 - "GET /status/5fefd030-ddb1-48f0-bce4-91d9970e4888 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57727 - "GET /status/5fefd030-ddb1-48f0-bce4-91d9970e4888 HTTP/1.1" 200 OK
-[download]   0.0% of   18.92MiB at  113.79KiB/s ETA 02:50[download]   0.0% of   18.92MiB at  296.96KiB/s ETA 01:05[download]   0.0% of   18.92MiB at  692.91KiB/s ETA 00:27[download]   0.1% of   18.92MiB at    1.45MiB/s ETA 00:13[download]   0.2% of   18.92MiB at  181.69KiB/s ETA 01:46[download]   0.3% of   18.92MiB at  253.63KiB/s ETA 01:16[download]   0.7% of   18.92MiB at  218.26KiB/s ETA 01:28[download]   1.3% of   18.92MiB at  204.29KiB/s ETA 01:33INFO:     127.0.0.1:57727 - "GET /status/5fefd030-ddb1-48f0-bce4-91d9970e4888 HTTP/1.1" 200 OK
-[download]   2.3% of   18.92MiB at  250.95KiB/s ETA 01:15[download]   4.2% of   18.92MiB at  281.45KiB/s ETA 01:05INFO:     127.0.0.1:57727 - "GET /status/5fefd030-ddb1-48f0-bce4-91d9970e4888 HTTP/1.1" 200 OK
-[download]   5.9% of   18.92MiB at  274.32KiB/s ETA 01:06[download]   7.2% of   18.92MiB at  292.19KiB/s ETA 01:01INFO:     127.0.0.1:57727 - "GET /status/5fefd030-ddb1-48f0-bce4-91d9970e4888 HTTP/1.1" 200 OK
-[download]   9.3% of   18.92MiB at  301.00KiB/s ETA 00:58[download]  11.1% of   18.92MiB at  300.66KiB/s ETA 00:57INFO:     127.0.0.1:57727 - "GET /status/5fefd030-ddb1-48f0-bce4-91d9970e4888 HTTP/1.1" 200 OK
-[download]  12.6% of   18.92MiB at  263.04KiB/s ETA 01:04INFO:     127.0.0.1:57727 - "GET /status/5fefd030-ddb1-48f0-bce4-91d9970e4888 HTTP/1.1" 200 OK
-[download]  13.4% of   18.92MiB at  256.49KiB/s ETA 01:05[download]  14.3% of   18.92MiB at  251.40KiB/s ETA 01:06[download]  15.3% of   18.92MiB at  250.66KiB/s ETA 01:05INFO:     127.0.0.1:57727 - "GET /status/5fefd030-ddb1-48f0-bce4-91d9970e4888 HTTP/1.1" 200 OK
-[download]  16.6% of   18.92MiB at  253.35KiB/s ETA 01:03[download]  18.1% of   18.92MiB at  256.00KiB/s ETA 01:02[download]  19.6% of   18.92MiB at  266.29KiB/s ETA 00:58INFO:     127.0.0.1:57727 - "GET /status/5fefd030-ddb1-48f0-bce4-91d9970e4888 HTTP/1.1" 200 OK
-[download]  22.2% of   18.92MiB at  280.84KiB/s ETA 00:53INFO:     127.0.0.1:57727 - "GET /status/5fefd030-ddb1-48f0-bce4-91d9970e4888 HTTP/1.1" 200 OK
-[download]  24.7% of   18.92MiB at  292.86KiB/s ETA 00:49[download]  27.1% of   18.92MiB at  299.80KiB/s ETA 00:47INFO:     127.0.0.1:57727 - "GET /status/5fefd030-ddb1-48f0-bce4-91d9970e4888 HTTP/1.1" 200 OK
-[download]  29.2% of   18.92MiB at  303.22KiB/s ETA 00:45[download]  31.0% of   18.92MiB at  304.60KiB/s ETA 00:43INFO:     127.0.0.1:57727 - "GET /status/5fefd030-ddb1-48f0-bce4-91d9970e4888 HTTP/1.1" 200 OK
-[download]  32.7% of   18.92MiB at  312.13KiB/s ETA 00:41[download]  35.7% of   18.92MiB at  320.04KiB/s ETA 00:38INFO:     127.0.0.1:57727 - "GET /status/5fefd030-ddb1-48f0-bce4-91d9970e4888 HTTP/1.1" 200 OK
-[download]  38.0% of   18.92MiB at  324.16KiB/s ETA 00:37[download]  40.0% of   18.92MiB at  329.38KiB/s ETA 00:35INFO:     127.0.0.1:57727 - "GET /status/5fefd030-ddb1-48f0-bce4-91d9970e4888 HTTP/1.1" 200 OK
-[download]  42.4% of   18.92MiB at  336.56KiB/s ETA 00:33INFO:     127.0.0.1:57727 - "GET /status/5fefd030-ddb1-48f0-bce4-91d9970e4888 HTTP/1.1" 200 OK
-[download]  45.2% of   18.92MiB at  341.00KiB/s ETA 00:31[download]  47.4% of   18.92MiB at  347.00KiB/s ETA 00:29INFO:     127.0.0.1:57727 - "GET /status/5fefd030-ddb1-48f0-bce4-91d9970e4888 HTTP/1.1" 200 OK
-[download]  50.2% of   18.92MiB at  348.27KiB/s ETA 00:27[download]  52.0% of   18.92MiB at  352.47KiB/s ETA 00:26INFO:     127.0.0.1:57727 - "GET /status/5fefd030-ddb1-48f0-bce4-91d9970e4888 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57727 - "GET /status/5fefd030-ddb1-48f0-bce4-91d9970e4888 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57727 - "GET /status/5fefd030-ddb1-48f0-bce4-91d9970e4888 HTTP/1.1" 200 OK
