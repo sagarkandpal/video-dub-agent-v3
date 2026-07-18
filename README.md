@@ -1,6 +1,6 @@
-# YouTube Video Processing API
+# YouTube dubbing ai agent
 
-FastAPI-based service for processing YouTube videos with AI-powered transcription, translation, and summarization.
+FastAPI-based service for processing YouTube videos and your videos with AI-powered transcription, translation, and summarization.
 
 ## Features
 - Process any YouTube video
